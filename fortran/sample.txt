@@ -1,0 +1,12 @@
+This file is an outfile filled with different energy values and the like.
+We're going to test the fact that I can make a C program that will store and print
+the energies needed.
+
+For example, it should be able to pull out values such as:
+
+        CCSD TOTAL ENERGY = -123.95798393875010
+        CCSD CORRELATION ENERGY = -0.23930119037438
+
+The goal of the JSON Library for the quantum chemistry programs is to be able to pull out the values from the RTDB (routine database) when it's finished running so that the JSONs will key a more precious value. It'll need to be printed out at the end too.
+
+Good luck Annabelle!
